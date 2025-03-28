@@ -6,7 +6,6 @@ import { cn } from "@/lib/utils";
 import ClipLoader from "react-spinners/ClipLoader";
 import styles from "./index.module.css";
 import { RootContainer } from "@/src/components/shared/reuses-components/root-container/root-container";
-import { Helmet, HelmetProvider } from "react-helmet-async";
 
 export default function MainPage() {
   const isAuthenticated = useAuth();
@@ -25,11 +24,6 @@ export default function MainPage() {
   }
 
   return (
-    <HelmetProvider>
-      <Helmet>
-        <title>bothub-test</title>
-        <meta name="description" content="main page" />
-      </Helmet>
       <RootContainer>
         <Header className={styles.headerMargin} />
         <div className={cn(styles.mainContainer)}>
@@ -37,6 +31,5 @@ export default function MainPage() {
           <Content />
         </div>
       </RootContainer>
-    </HelmetProvider>
   );
 }
