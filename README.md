@@ -1,54 +1,33 @@
-# React + TypeScript + Vite
+# BotHub тестовое задание
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ссылка на деплой: https://bothub-test.vercel.app/
 
-Currently, two official plugins are available:
+# Stack
+  
+  1. React / ts - бандлер vite
+  2. zustand
+  3. Для сетевых запросов использвал axios
+  4. Стилизация module.css
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<!--Установка-->
+## Установка 
 
-## Expanding the ESLint configuration
+1. Клонирование репозитория 
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+```git clone https://github.com/Unicorn-Naughty/bothub-test-react-css.git```
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+2. Переход в директорию bothub-test-react-css
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+```cd bothub-test-react-css```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+3. Установка зависимостей
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+```npm i ```
+
+4. Запуск для демонстрации возможностей bothub-test
+
+```npm run build```
+```npm run preview```
+
+
+  
