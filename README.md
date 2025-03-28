@@ -1,6 +1,6 @@
 # BotHub тестовое задание
 
-Ссылка на деплой: bothub-test-react-css.vercel.app
+Ссылка на деплой: https://bothub-test-react-css.vercel.app/
 
 # Stack
   
