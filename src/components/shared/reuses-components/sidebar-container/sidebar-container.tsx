@@ -2,6 +2,7 @@ import { sideBarStateStore } from "@/src/store/sidebar-state-store";
 import { cn } from "@/lib/utils";
 import { useClickAway } from "react-use";
 import React from "react";
+import { motion } from "framer-motion";
 import styles from "./index.module.css";
 
 interface Props {
