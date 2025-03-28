@@ -1,0 +1,27 @@
+
+.container {
+    padding: 20px; 
+    display: block;
+    background-color: #121825;
+    border-radius: 18px;
+  }
+  
+  .hiddenOnMobile {
+    display: none;
+  }
+  
+  .visibleOnMobile {
+    display: block;
+    position: absolute;
+    z-index: 50;
+    top: 110px;
+    left: 16px;
+    bottom: 0;
+  }
+  
+  .aside {
+    width: 292px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }

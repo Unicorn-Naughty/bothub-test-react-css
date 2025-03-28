@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+  }
+  
+  .closeButton {
+    width: 24px; 
+    height: 24px;
+  }
+  
+  .icon {
+    color: #616D8D; 
+  }

@@ -1,0 +1,36 @@
+.listItem {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px; 
+  }
+  
+  .copyButton {
+    min-width: 18px;
+  }
+  
+  .messageBlock {
+    background-color: var(--clientMessageColor);
+    position: relative;
+    border-radius: 10px;
+    padding: 16px; 
+    padding-right: 8px; 
+    border-bottom-right-radius: 0;
+    background-color: #4785FF80; 
+  }
+  
+  .messageText {
+    font-size: 18px;
+    min-width: 164px;
+  }
+  
+  .messageTime {
+    font-size: 12px;
+    position: absolute;
+    bottom: 4px; 
+    right: 8px; 
+  }
+  
+  .userFigure {
+    min-width: 40px; 
+  }

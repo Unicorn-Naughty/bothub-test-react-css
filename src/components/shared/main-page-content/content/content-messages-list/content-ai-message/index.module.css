@@ -1,0 +1,64 @@
+/* ContentAiMessage.module.css */
+.listItem {
+    display: flex;
+    align-items: center;
+    gap: 16px; /* Assuming gap-4 translates to 16px */
+  }
+  
+  .aiIcon {
+    min-width: 40px;
+  }
+  
+  .messageContainer {
+    margin-bottom: 8px; /* Assuming mb-2 translates to 8px */
+  }
+  
+  .figure {
+    display: flex;
+    gap: 10px; /* Assuming gap-2.5 translates to 10px */
+  }
+  
+  .figcaption {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+  .modelId {
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #222B44;
+    padding: 4px 12px; 
+    border-radius: 14px;
+  }
+  
+  .messageText {
+    margin-bottom: 8px; 
+    font-size: 18px;
+  }
+  
+  .messageFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footerLeft {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  
+  .capsText {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #616D8D;
+    line-height: 22px;
+  }
+  
+  .copyButton {
+    min-width: 18px;
+  }
+  
+  .time {
+    font-size: 12px;
+  }

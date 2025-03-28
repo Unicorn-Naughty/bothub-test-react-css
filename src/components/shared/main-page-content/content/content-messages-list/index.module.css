@@ -1,0 +1,35 @@
+
+.messagesList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; 
+  padding-right: 8px; 
+}
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.loadingText {
+  margin-top: 16px; 
+}
+
+.noMessagesText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.clientMessage {
+  align-self: flex-end;
+}
+
+.aiMessage {
+  align-self: flex-start;
+}

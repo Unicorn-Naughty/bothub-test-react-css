@@ -1,0 +1,45 @@
+.mainDivWrapper{
+  position: relative;
+  width: 40px;
+  height: 44px;
+}
+.dropdownContent {
+    width: 250px;
+    background-color:#121825;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #313E62;
+    border-radius: 10px;
+    padding: 12px;
+    z-index: 1;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .dropdownContentOpen{
+    z-index: 20;
+    pointer-events: all;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .input {
+    color: white;
+    padding: 8px 12px; 
+    border: none;
+    margin-bottom: 12px; 
+  }
+  
+  .createButton {
+    color: white;
+    width: 50%; 
+    background-color: #1C64F2;
+    padding: 5px 2px; 
+    font-size: 18px;
+    line-height: 18px;
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.4);
+  }

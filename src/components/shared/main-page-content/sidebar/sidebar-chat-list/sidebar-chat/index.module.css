@@ -1,0 +1,51 @@
+/* SidebarChat.module.css */
+.chatItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px; 
+}
+
+.chatContent {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+  cursor: pointer;
+}
+
+.messageIcon {
+  width: 18px;
+  height: 18px;
+  color: #616D8D;
+  font-weight: medium;
+}
+
+.messageIconActive {
+  color: white;
+}
+
+.chatName {
+  width: 200px;
+  color: #616D8D;
+  font-size: 16px;
+  line-height: 22px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: color 0.3s;
+}
+
+.chatNameActive {
+  font-weight: bold;
+  color: white;
+}
+
+.trashIcon {
+  width: 18px;
+  height: 18px;
+  color: #616D8D;
+}
+
+.trashIconActive {
+  color: white;
+}

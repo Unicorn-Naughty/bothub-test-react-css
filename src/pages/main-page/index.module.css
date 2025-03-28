@@ -1,0 +1,17 @@
+
+.loaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 32px);
+  }
+  
+  .mainContainer {
+    display: flex;
+    gap: 16px;
+    height: calc(100vh - 32px);
+  }
+  
+  .headerMargin {
+    margin-bottom: 20px;
+  }

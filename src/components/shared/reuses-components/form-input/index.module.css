@@ -1,0 +1,18 @@
+.label {
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    margin-bottom: 8px;
+  }
+  
+  .input {
+    border: 1px solid #313E62;
+    padding: 16px; 
+    border-radius: 8px;
+    color: white;
+  }
+
+  .errorText {
+    color: #f87171; 
+    font-size: 12px;
+  }

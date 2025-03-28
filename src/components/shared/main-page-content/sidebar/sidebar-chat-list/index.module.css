@@ -1,0 +1,11 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px; 
+    z-index: 19;
+  }
+  
+  .noChatsMessage {
+    text-align: center;
+    color: #616D8D;
+  }

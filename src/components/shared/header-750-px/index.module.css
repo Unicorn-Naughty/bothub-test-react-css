@@ -1,0 +1,13 @@
+
+.header {
+    padding: 20px; 
+    background-color: #121825;
+    border-radius: 20px;
+    display: none;
+  }
+  
+  @media (max-width: 750px) {
+    .header {
+      display: block;
+    }
+  }
